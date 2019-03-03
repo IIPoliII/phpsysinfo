@@ -157,7 +157,7 @@ LOAD_BAR=true
 ; - Default is canonical host name and address
 ; - Use USE_VHOST=true to display virtual host name.
 ;
-USE_VHOST=false
+USE_VHOST=true
 
 
 ; Controls the units & format for network, memory and filesystem
@@ -353,7 +353,7 @@ SHOW_NETWORK_INFOS=true
 
 ; Hide MAC address in the infos
 ;
-HIDE_NETWORK_MACADDR=false
+HIDE_NETWORK_MACADDR=true
 
 
 ; Sort network interfaces list
@@ -371,7 +371,7 @@ SHOW_NETWORK_INFOS_EXPANDED=false
 ; - "bps" : display network active speed in bits per second (b/s, Kb/s, etc...)
 ; - false : hide them
 ;
-SHOW_NETWORK_ACTIVE_SPEED=false
+SHOW_NETWORK_ACTIVE_SPEED=true
 
 
 ; ********************************
